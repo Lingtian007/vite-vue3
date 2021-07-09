@@ -1,0 +1,20 @@
+{
+  "name": "vue3-vite",
+  "version": "0.0.0",
+  "scripts": {
+    "mock": "cross-env NODE_ENV=mock vite --mode mock",
+    "dev": "cross-env NODE_ENV=dev vite --mode dev",
+    "sit": "cross-env NODE_ENV=sit vite --mode sit",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "cross-env": "^7.0.3",
+    "vite": "^1.0.0-rc.13"
+  }
+}
+
